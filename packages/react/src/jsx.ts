@@ -1,8 +1,10 @@
 // return ReactElement
+import { REACT_ELEMET_TYPE } from 'shared/ReactSymbols';
+import { ReactElement } from 'shared/ReactTypes';
 
-const ReactElement = function (type, key, ref, props) {
+export const ReactElement = function (type, key, ref, props) {
 	const element = {
-		$$typeof: xxx,
+		$$typeof: REACT_ELEMET_TYPE,
 		key,
 		ref,
 		props,
