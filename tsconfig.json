@@ -2,10 +2,8 @@
 	"compilerOptions": {
 		"target": "ESNext", // Target ECMAScript version
 		"module": "ESNext", // Use ES modules
-		"baseUrl": ".", // Base directory for resolving paths
-		"paths": {
-			"shared/*": ["packages/shared/*"] // Path alias for shared components
-		},
+		"baseUrl": "./packages", // Base directory for resolving paths
+		"paths": {},
 		"moduleResolution": "Node", // Resolve modules using Node.js rules
 		"esModuleInterop": true, // Enable ES module compatibility
 		"skipLibCheck": true, // Skip type checks on .d.ts files
