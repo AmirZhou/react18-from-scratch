@@ -1,0 +1,14 @@
+{
+	"compilerOptions": {
+		"target": "ESNext", // Target ECMAScript version
+		"module": "ESNext", // Use ES modules
+		"baseUrl": "./packages", // Base directory for resolving paths
+		"paths": {},
+		"moduleResolution": "Node", // Resolve modules using Node.js rules
+		"esModuleInterop": true, // Enable ES module compatibility
+		"skipLibCheck": true, // Skip type checks on .d.ts files
+		"forceConsistentCasingInFileNames": true
+	},
+	"include": ["packages/**/*"], // Include all files in the 'packages' directory
+	"exclude": ["node_modules"] // Exclude 'node_modules'
+}
